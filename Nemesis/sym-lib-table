@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NODEMCU-32S")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty/NODEMCU-32S.kicad_sym")(options "")(descr ""))
+  (lib (name "LSM6DSO")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty/LSM6DSO.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8874PWPR")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty/DRV8874PWPR.kicad_sym")(options "")(descr ""))
+)
