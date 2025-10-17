@@ -1330,6 +1330,10 @@
 		(color 0 0 0 0)
 		(uuid "eb1b037b-bb7d-4e00-8e4e-e5b0e704bea2")
 	)
+	(no_connect
+		(at 88.9 118.11)
+		(uuid "1ea4dc74-f975-42ff-8088-3024f585ba72")
+	)
 	(wire
 		(pts
 			(xy 149.86 92.71) (xy 132.08 92.71)
@@ -1352,7 +1356,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 113.03) (xy 96.52 113.03)
+			(xy 77.47 113.03) (xy 96.52 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1992,7 +1996,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 102.87) (xy 96.52 102.87)
+			(xy 76.2 102.87) (xy 96.52 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2019,6 +2023,86 @@
 			(type default)
 		)
 		(uuid "ffa2ffbd-31d9-4a93-a00c-cb1fd18f72a7")
+	)
+	(label "IMODE"
+		(at 57.15 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e2aaf1e-f5c1-4fd3-be0c-74aba5384932")
+	)
+	(label "IMODE"
+		(at 76.2 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a109420-c0d3-4e15-9562-a74f549493c1")
+	)
+	(label "CS"
+		(at 157.48 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bb19712-9933-4d97-bf22-5f38eff9baba")
+	)
+	(label "VM"
+		(at 165.1 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76045fa0-a0e0-46ce-b96f-4a296c7c0434")
+	)
+	(label "VREF"
+		(at 77.47 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf10eb35-fd2f-49f0-864f-d4cad0681334")
+	)
+	(label "VM"
+		(at 165.1 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4ae0244-b8ee-4a57-bdef-26c637909c6f")
+	)
+	(label "VREF"
+		(at 77.47 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd9f2b01-4af8-41e0-b39f-e6d731a1c0d1")
+	)
+	(label "FLT"
+		(at 88.9 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb97edb4-3ac1-4b63-bc13-82be378a614f")
 	)
 	(hierarchical_label "OUT1"
 		(shape input)
@@ -2052,50 +2136,6 @@
 			(justify left)
 		)
 		(uuid "31b9f8d6-9510-4dce-b727-c1d9752d86ee")
-	)
-	(hierarchical_label "VREF"
-		(shape input)
-		(at 77.47 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3db4bcc6-1188-4ab8-8117-d283864fe051")
-	)
-	(hierarchical_label "CS"
-		(shape input)
-		(at 157.48 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "527d6ccd-6afc-4284-85e1-4cbcba913850")
-	)
-	(hierarchical_label "VREF"
-		(shape input)
-		(at 88.9 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "570e6fd0-01b5-4142-a70e-ce145037ef4e")
-	)
-	(hierarchical_label "FLT"
-		(shape input)
-		(at 88.9 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5887ad45-65c5-46ff-94b4-b7443e62be2d")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2152,17 +2192,6 @@
 		)
 		(uuid "ac1662f7-d82e-4e27-bb44-18f7cd43a50d")
 	)
-	(hierarchical_label "IMODE"
-		(shape input)
-		(at 57.15 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b03f5692-5452-4dac-9303-c2b073dbf187")
-	)
 	(hierarchical_label "SLP"
 		(shape input)
 		(at 77.47 41.91 180)
@@ -2174,39 +2203,6 @@
 		)
 		(uuid "bf73ecec-6e39-435a-9073-952ef0a0856f")
 	)
-	(hierarchical_label "VM"
-		(shape input)
-		(at 165.1 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c94046bb-4391-4351-a606-c2edc83571c5")
-	)
-	(hierarchical_label "IMODE"
-		(shape input)
-		(at 88.9 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc409826-9b1c-42e4-b24b-c4f9b93ce7b9")
-	)
-	(hierarchical_label "VM"
-		(shape input)
-		(at 165.1 44.45 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e7a68ba3-ccae-4947-878b-2777032a4655")
-	)
 	(symbol
 		(lib_id "Device:C")
 		(at 154.94 87.63 90)
@@ -2217,7 +2213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bc9c25b-4610-407b-948e-b3a5519dda12")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 154.94 80.01 90)
 			(effects
 				(font
@@ -2233,7 +2229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 158.75 86.6648 0)
 			(effects
 				(font
@@ -2261,15 +2257,93 @@
 			)
 		)
 		(pin "2"
-			(uuid "2dee0f6e-79d1-4010-9e08-8a79941b22f7")
+			(uuid "58c91817-8f27-4a7c-9b25-0542c559d982")
 		)
 		(pin "1"
-			(uuid "18bc18a7-23d7-45b9-b156-608923b942ae")
+			(uuid "38e62d21-c3a2-4499-8c52-c01f16f4cc37")
 		)
 		(instances
 			(project "Nemesis"
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "C2")
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2adebd3f-2777-49ca-9ba9-39c9cfc8e4d5")
+		(property "Reference" "C10"
+			(at 200.66 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7nF"
+			(at 200.66 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 195.8848 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "325da3b3-36b7-48b7-afdd-fdca4e460536")
+		)
+		(pin "1"
+			(uuid "d349bcb1-b308-4ecf-8b09-a7be284f7aea")
+		)
+		(instances
+			(project "Nemesis"
+				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2330,7 +2404,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e15b628-c397-475d-9b20-69a02ab4a29f")
+			(uuid "fb8a8efc-2b67-4793-950c-c1eaab4ea1e9")
 		)
 		(instances
 			(project "Nemesis"
@@ -2338,74 +2412,8 @@
 					(reference "#PWR04")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 196.85 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "466ee289-68f3-4a18-98b2-8282eafa0a28")
-		(property "Reference" "C3"
-			(at 200.66 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7nF"
-			(at 200.66 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.8848 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a9e6851-82fa-487c-a93f-36bb9c64cc16")
-		)
-		(pin "1"
-			(uuid "cf679519-fb62-4145-8d39-67d2f2d05208")
-		)
-		(instances
-			(project "Nemesis"
-				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "C3")
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2421,7 +2429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "514352f0-6a22-433e-931b-b4bec896a08d")
-		(property "Reference" "C6"
+		(property "Reference" "C13"
 			(at 238.76 62.2299 0)
 			(effects
 				(font
@@ -2439,7 +2447,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 233.9848 59.69 0)
 			(effects
 				(font
@@ -2467,15 +2475,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "f42c7568-33ef-43e2-b10c-71c4c9796232")
+			(uuid "55cbabe3-b25f-427f-9a46-c2dd54704567")
 		)
 		(pin "1"
-			(uuid "a5d2abe4-e8fb-4f60-bedf-ab3b052fb1ce")
+			(uuid "8dc66cda-2022-43a2-b9bb-1401cd50df1b")
 		)
 		(instances
 			(project "Nemesis"
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "C6")
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2500,7 +2512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "16.2V"
 			(at 186.69 58.4199 90)
 			(effects
 				(font
@@ -2509,7 +2521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 184.15 57.15 0)
 			(effects
 				(font
@@ -2537,15 +2549,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "190fb470-f73c-444f-9f6b-4ec65324cecc")
+			(uuid "63dd9895-c6f3-4ff2-8a28-73f0e0273f40")
 		)
 		(pin "2"
-			(uuid "f0b46af9-e3a1-4291-b665-2158b505dd29")
+			(uuid "50317f58-d84b-4e58-8807-8b5f815469ad")
 		)
 		(instances
 			(project ""
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
 					(reference "D1")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2561,7 +2577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6235600c-cef1-47ba-b8a8-c8939621b77a")
-		(property "Reference" "C1"
+		(property "Reference" "C14"
 			(at 140.97 74.93 90)
 			(effects
 				(font
@@ -2577,7 +2593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 144.78 81.5848 0)
 			(effects
 				(font
@@ -2605,15 +2621,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "d334c2de-1092-455f-b6d8-ada640068b78")
+			(uuid "147d95fc-e5a7-4aa1-b3d9-0ad5b03beb0f")
 		)
 		(pin "1"
-			(uuid "d62a5226-a772-460e-a6ce-44dcf8886d1b")
+			(uuid "7720728f-befd-4c89-9393-2dd4c591f86b")
 		)
 		(instances
 			(project ""
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "C1")
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -2674,12 +2694,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a8e89bb-2dd6-48c9-a29b-af27c0796aad")
+			(uuid "43aeb502-c987-4f22-a3f2-a3cc620463ea")
 		)
 		(instances
 			(project "Nemesis"
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
 					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2740,12 +2764,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae63c2ba-4c4e-468e-ba35-9da38deff243")
+			(uuid "b4d0e13b-aa24-40c2-bc76-b24ce691fa16")
 		)
 		(instances
 			(project "Nemesis"
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
 					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2761,7 +2789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68795d09-56a0-4c93-9a98-7749021aad37")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 186.69 68.5799 0)
 			(effects
 				(font
@@ -2779,7 +2807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 182.372 69.85 90)
 			(effects
 				(font
@@ -2807,15 +2835,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "fbe4ee4b-fed4-453e-a54e-3445a64b7979")
+			(uuid "b11a88a2-dedf-48fa-8816-2d47d3d0ce5f")
 		)
 		(pin "2"
-			(uuid "39df931a-2b92-448a-8081-85959288a65e")
+			(uuid "913d20c7-31a8-41b5-9fa7-bb0a4a265f8e")
 		)
 		(instances
 			(project "Nemesis"
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "R12")
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2876,12 +2908,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "2860c458-caeb-4eac-ac77-363ba3f9ebaf")
+			(uuid "65c0d8bb-ff40-4973-993e-bc0452a81208")
 		)
 		(instances
 			(project "Nemesis"
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
 					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2897,7 +2933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96ef0a71-1393-4a8b-aacf-f917f62d998c")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 63.5 59.6899 0)
 			(effects
 				(font
@@ -2915,7 +2951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 59.182 60.96 90)
 			(effects
 				(font
@@ -2943,15 +2979,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "044563b9-ddb4-4cba-b8f4-e52a48ed9d3d")
+			(uuid "313c9fb1-2f58-49b1-b153-113f4d6c4a61")
 		)
 		(pin "2"
-			(uuid "6e3514c6-a041-40dd-8d2a-9b1b5b67b505")
+			(uuid "f1a74c6f-ff8b-4759-aad9-6ea289bd177f")
 		)
 		(instances
 			(project "Nemesis"
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "R9")
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2967,7 +3007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "975eed04-b199-4186-9e4e-a81168129cca")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 82.55 46.9899 0)
 			(effects
 				(font
@@ -2985,7 +3025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 78.232 48.26 90)
 			(effects
 				(font
@@ -3013,85 +3053,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "aae65c26-6de4-4628-9ffd-8b29a750d5bd")
+			(uuid "75488f45-a63d-4062-a054-4923fd6eceee")
 		)
 		(pin "2"
-			(uuid "823e1d68-d345-425b-b838-86aa5e060c11")
+			(uuid "e6eb378e-0cae-490c-8f14-2a53aa181a18")
 		)
 		(instances
 			(project "Nemesis"
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 222.25 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b67a7202-d929-42cc-8d34-5e25819ca22c")
-		(property "Reference" "C5"
-			(at 226.06 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1nF"
-			(at 226.06 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 221.2848 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 222.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "14bc191d-46db-4fc5-b7ce-0e6cf6eefa4c")
-		)
-		(pin "1"
-			(uuid "94618e82-869e-4197-8bf3-c8c3ec26695a")
-		)
-		(instances
-			(project "Nemesis"
-				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "C5")
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3123,7 +3097,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 173.99 48.26 0)
 			(effects
 				(font
@@ -3151,18 +3125,96 @@
 			)
 		)
 		(pin "G"
-			(uuid "c15dc9d0-de24-40b9-afdf-8365f774eab5")
+			(uuid "550ed0c3-7b67-41bc-ab67-e5f8de8cbc9f")
 		)
 		(pin "S"
-			(uuid "f3639bcf-fc51-45b7-a45e-f3827155ad31")
+			(uuid "94780401-edb7-4664-9088-9f170e85aedf")
 		)
 		(pin "D"
-			(uuid "af215b69-7602-4990-8f62-41f499e374f3")
+			(uuid "00865e46-20c8-4366-ad20-3dd2e6b06eb0")
 		)
 		(instances
 			(project ""
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
 					(reference "Q1")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 222.25 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb3958e2-e6e4-4a5c-ad12-e5e96b075260")
+		(property "Reference" "C12"
+			(at 226.06 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1nF"
+			(at 226.06 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 221.2848 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 222.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a80d226-5666-41bb-95a2-c26661006f21")
+		)
+		(pin "1"
+			(uuid "e895ac51-3559-493e-9aae-d71a2ec1c091")
+		)
+		(instances
+			(project "Nemesis"
+				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3303,57 +3355,61 @@
 			)
 		)
 		(pin "7"
-			(uuid "402f1073-8131-46c7-b718-0ae35f18f5d1")
+			(uuid "3bf8613e-ab64-4b6c-8487-8cdd9347db9d")
 		)
 		(pin "2"
-			(uuid "deea12b1-f96b-473f-86e9-009dd38905b8")
+			(uuid "4d645d55-1d8f-4e8c-b41f-6cfbedf2710c")
 		)
 		(pin "3"
-			(uuid "a97ac75b-0902-419a-91cb-0fb666612bbd")
+			(uuid "17135942-fd48-4df4-8498-fabe1a923cdc")
 		)
 		(pin "1"
-			(uuid "a3d8c5af-5f12-4e6e-81a4-eb1707d3c636")
+			(uuid "c33e62b2-3717-483f-9124-a523f1d54600")
 		)
 		(pin "16"
-			(uuid "dc3975d5-5aac-419b-b76f-f3c7c8442e33")
+			(uuid "1e80294a-8911-4c2a-be48-a0923794cdb8")
 		)
 		(pin "5"
-			(uuid "de5f6bb3-5c0f-4a42-8a69-e70245287609")
+			(uuid "225226dc-71c8-4ea4-b36e-bb572503b398")
 		)
 		(pin "4"
-			(uuid "7f5bff26-7093-4e89-889a-958ef70b9f1a")
+			(uuid "af69ee6c-5729-4f4f-8462-5c14d480edad")
 		)
 		(pin "13"
-			(uuid "1384523b-ffea-493e-84ba-bbff81be27c9")
+			(uuid "4717d667-9b03-420d-8b0a-10953944c110")
 		)
 		(pin "14"
-			(uuid "2f2bdd5e-8f92-4b4f-97a6-bb03b96a2526")
+			(uuid "dfe2da0d-4778-4bca-93aa-aef197413699")
 		)
 		(pin "12"
-			(uuid "1f36d04e-48de-4b3a-be2e-1255b85fe871")
+			(uuid "72108f8b-9a43-4250-ae40-f288f002fdb8")
 		)
 		(pin "11"
-			(uuid "c8456058-79c0-4929-a5e9-c245055b2b40")
+			(uuid "40057f0c-434f-4fe1-b721-036a2ccde226")
 		)
 		(pin "6"
-			(uuid "00627bad-b569-4e6e-a1ae-b4ae9d2b8df6")
+			(uuid "6c8cb5c4-47f3-4d2e-abf3-8f007d5b820f")
 		)
 		(pin "8"
-			(uuid "19cbc5bb-048f-4baf-8497-67d6988c72e7")
+			(uuid "4f8e070f-92a8-4160-b1ab-3b338824f502")
 		)
 		(pin "10"
-			(uuid "33ee18ee-7cbc-4f8f-ad20-64507a2f4e46")
+			(uuid "bb8c9c2c-2f6b-488d-a70b-74a21c73cd7a")
 		)
 		(pin "9"
-			(uuid "094db545-b5f2-415c-b0ed-06a3fe03ea66")
+			(uuid "4240a4e5-2219-4a71-a1e4-9aea3f11acdb")
 		)
 		(pin "15"
-			(uuid "b3e1c72d-dee5-4977-bdda-bc24b6647653")
+			(uuid "363d28f5-a2d1-40a4-9ca9-c2f04c7cad15")
 		)
 		(instances
 			(project "Nemesis"
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
 					(reference "U2")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3369,7 +3425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df1f412a-076e-4b3c-bbf7-f590c8ffd570")
-		(property "Reference" "R8"
+		(property "Reference" "R14"
 			(at 153.67 105.4099 0)
 			(effects
 				(font
@@ -3387,7 +3443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 149.352 106.68 90)
 			(effects
 				(font
@@ -3415,15 +3471,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "9214d196-9c7a-4503-9651-9c788c64e0c3")
+			(uuid "f069b255-fb6f-4a5e-8c93-51953a7890c3")
 		)
 		(pin "2"
-			(uuid "26dd06d5-3950-42ac-85c7-4eba8dd2b6b7")
+			(uuid "7cf93f20-f685-4e2f-9a5c-b1f7c828b267")
 		)
 		(instances
 			(project ""
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "R8")
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3439,7 +3499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4f3d6e4-89ee-472a-8a18-0fb08a90ef3f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR011"
 			(at 139.7 138.43 0)
 			(effects
 				(font
@@ -3484,12 +3544,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "7693b7c2-6bec-4847-9ad4-aa30745d046b")
+			(uuid "fca06d66-6ba5-4e51-95f1-7bea5a2cdde2")
 		)
 		(instances
 			(project ""
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "#PWR02")
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3505,7 +3569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f465ecfa-39dc-46a4-872b-97df883ac3fb")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 82.55 59.6899 0)
 			(effects
 				(font
@@ -3523,7 +3587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 78.232 60.96 90)
 			(effects
 				(font
@@ -3551,15 +3615,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "41f53995-3b93-405e-a65a-5862dae7aa02")
+			(uuid "32ba99b3-302d-4423-9e60-0139df688401")
 		)
 		(pin "2"
-			(uuid "709394a0-4cc8-4b7f-998d-9b9597042853")
+			(uuid "109d00d9-8ef8-44d3-8d82-126eb6226b0f")
 		)
 		(instances
 			(project "Nemesis"
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "R11")
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3575,7 +3643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff4c9fb8-5b66-4b97-a0f6-0eecaef27b53")
-		(property "Reference" "C4"
+		(property "Reference" "C11"
 			(at 213.36 62.2299 0)
 			(effects
 				(font
@@ -3593,7 +3661,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 208.5848 59.69 0)
 			(effects
 				(font
@@ -3621,15 +3689,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "2d47b2c5-5783-4bc6-8a66-c604f0f69e5d")
+			(uuid "b2a6f8af-238a-4fa4-b27c-7092cf1feae4")
 		)
 		(pin "1"
-			(uuid "0ec53cb9-2bf3-415d-9a2f-2de2be2c2e21")
+			(uuid "2e672a38-6d66-4e52-a227-7ed4e9c98741")
 		)
 		(instances
 			(project "Nemesis"
 				(path "/be409c7c-7399-408b-b544-fec79192e856/b167e050-21f4-4a65-84dc-9eddb48736f1"
-					(reference "C4")
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/be409c7c-7399-408b-b544-fec79192e856/bf7ea767-a99f-46a1-81b4-e973503e1a54"
+					(reference "C17")
 					(unit 1)
 				)
 			)

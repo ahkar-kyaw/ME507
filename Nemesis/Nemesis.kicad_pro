@@ -597,7 +597,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "LSM6DSO_Accelerometer+Gyrometer",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -621,6 +621,10 @@
     [
       "b167e050-21f4-4a65-84dc-9eddb48736f1",
       "DRV8874"
+    ],
+    [
+      "bf7ea767-a99f-46a1-81b4-e973503e1a54",
+      "DRV8875"
     ]
   ],
   "text_variables": {}
