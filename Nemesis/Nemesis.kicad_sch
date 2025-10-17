@@ -201,7 +201,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x03"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -217,7 +217,7 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x03"
+			(property "Value" "Conn_01x03"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -243,7 +243,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -252,7 +252,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -261,7 +261,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -270,7 +270,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x03_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -3.81)
@@ -282,10 +282,9 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -294,10 +293,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -306,79 +304,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1763,7 +1691,7 @@
 	)
 	(text "VOUT \nGND \nVIN\n"
 		(exclude_from_sim no)
-		(at 58.42 51.562 90)
+		(at 58.674 50.038 90)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1936,6 +1864,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 57.15) (xy 55.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c522900-da9c-4b26-92b4-bdc51b6b3cbc")
+	)
+	(wire
+		(pts
 			(xy 139.7 96.52) (xy 135.89 96.52)
 		)
 		(stroke
@@ -1963,16 +1901,6 @@
 			(type default)
 		)
 		(uuid "2c6af164-db8b-43f6-88ef-8929fd32fd37")
-	)
-	(wire
-		(pts
-			(xy 60.96 58.42) (xy 60.96 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e13a490-025d-44e4-991a-5091344a50b1")
 	)
 	(wire
 		(pts
@@ -2086,6 +2014,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 57.15) (xy 60.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd7bdfe-c321-4b9a-aa92-00baba562a1b")
+	)
+	(wire
+		(pts
 			(xy 55.88 63.5) (xy 45.72 63.5)
 		)
 		(stroke
@@ -2123,6 +2061,16 @@
 			(type default)
 		)
 		(uuid "9af79a91-51af-4238-a4ad-0bd5bcb52496")
+	)
+	(wire
+		(pts
+			(xy 58.42 57.15) (xy 58.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f16c062-d044-4f4b-882d-677bfbbc1889")
 	)
 	(wire
 		(pts
@@ -2236,16 +2184,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 58.42) (xy 55.88 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac1c8a5-71ee-4643-b618-2c9c9099d72d")
-	)
-	(wire
-		(pts
 			(xy 129.54 101.6) (xy 139.7 101.6)
 		)
 		(stroke
@@ -2273,16 +2211,6 @@
 			(type default)
 		)
 		(uuid "e6d60beb-7e7f-4e92-b493-43344bd72ae0")
-	)
-	(wire
-		(pts
-			(xy 58.42 58.42) (xy 58.42 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaba4a34-dc84-43cc-88dd-5a0129a0bae0")
 	)
 	(wire
 		(pts
@@ -2811,6 +2739,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 58.42 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ca8795e-36ce-4909-a4d1-d80130eb6a8b")
+		(property "Reference" "S13V20F5"
+			(at 63.5 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Voltage Regulator"
+			(at 63.5 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 58.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b083b42-66d8-495f-b5da-074e016c1554")
+		)
+		(pin "2"
+			(uuid "2e52d56a-3556-47d1-b281-9f5868fa5686")
+		)
+		(pin "3"
+			(uuid "87511b39-0ee0-4c06-8947-f4f82228e1a7")
+		)
+		(instances
+			(project ""
+				(path "/be409c7c-7399-408b-b544-fec79192e856"
+					(reference "S13V20F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NODEMCU-32S:NODEMCU-32S")
 		(at 63.5 119.38 0)
 		(unit 1)
@@ -3102,78 +3103,6 @@
 			(project ""
 				(path "/be409c7c-7399-408b-b544-fec79192e856"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 58.42 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2cf9e56f-173d-4b08-a336-c8529a5ec3be")
-		(property "Reference" "S13V20F5"
-			(at 64.008 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Voltage Regulator"
-			(at 64.008 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 58.42 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9470333a-d9ae-4a04-9b49-745b4b5c1363")
-		)
-		(pin "2"
-			(uuid "13870396-9b17-41b3-8930-999308e67054")
-		)
-		(pin "3"
-			(uuid "30079e85-b815-482c-a09b-406b010a0b76")
-		)
-		(instances
-			(project ""
-				(path "/be409c7c-7399-408b-b544-fec79192e856"
-					(reference "S13V20F5")
 					(unit 1)
 				)
 			)
